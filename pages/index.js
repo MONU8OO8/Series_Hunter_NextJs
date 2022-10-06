@@ -10,42 +10,42 @@ export default function Home() {
   return (
     <>
       <div className={styles.container}>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
+          <div className="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="/1img.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src="/1img.jpg" className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
                 <h1>Series Hunter</h1>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="/2img.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-item">
+              <img src="/2img.jpg" className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
                 <h1>Series Hunter</h1>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="/3img.jpg" class="d-block w-100" alt="..." />
-              <div class="carousel-caption d-none d-md-block">
+            <div className="carousel-item">
+              <img src="/3img.jpg" className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
                 <h1>Series Hunter</h1>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>
@@ -71,32 +71,32 @@ export default function Home() {
 
           {/* <div className={`${styles1.con} ${styles2.con}`}> */}
 
-          <div class="row">
+          <div className="row">
           <h2 className={styles.h2}>Latest Blogs</h2>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Best webseries in 2022?</h5>
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cum sint, id nihil incidunt non possimus placeat enim officia, voluptatum magnam quo. Possimus, odio vitae.</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
+            <div className="col-sm-6">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Best webseries in 2022?</h5>
+                  <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cum sint, id nihil incidunt non possimus placeat enim officia, voluptatum magnam quo. Possimus, odio vitae.</p>
+                  <a href="#" className="btn btn-primary">Read More</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Best webseries in 2022?</h5>
-                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus quos itaque cupiditate. Cupiditate fuga iste laborum distinctio iure numquam eligendi consequatur vero architecto sint?</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
+            <div className="col-sm-6">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Best webseries in 2022?</h5>
+                  <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam temporibus quos itaque cupiditate. Cupiditate fuga iste laborum distinctio iure numquam eligendi consequatur vero architecto sint?</p>
+                  <a href="#" className="btn btn-primary">Read More</a>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Best webseries in 2022?</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe qui provident! Corrupti accusantium voluptas dolore accusamus doloremque. Dolore possimus tempora corporis, magnam aliquam ad.</p>
-                  <a href="#" class="btn btn-primary">Read More</a>
+            <div className="col-sm-6">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Best webseries in 2022?</h5>
+                  <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe qui provident! Corrupti accusantium voluptas dolore accusamus doloremque. Dolore possimus tempora corporis, magnam aliquam ad.</p>
+                  <a href="#" className="btn btn-primary">Read More</a>
                 </div>
               </div>
             </div>
