@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 // import 'bootstrap/dist/css/bootstrap.css';
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -16,7 +17,9 @@ const Navbar = () => {
 
     <nav className="navbar navbar-expand-md b-4 navbar-dark bg-dark">
       <div className={styles.navimg}>
-        <img src="/logo1.png" alt="" />
+        {/* <img src="/logo1.png" alt="" /> */}
+        <Image src="/2img.jpg" alt="Picture of the author" width={45}
+      height={45}/>
       </div>
       <div className="navcenter navbar-collapse collapse justify-content-center" id="collapsingNavbar">
         <ul className="navbar-nav">
