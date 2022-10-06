@@ -14,7 +14,7 @@ const Navbar = () => {
     //     </ul>
     //   </nav>
 
-    <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-md b-4 navbar-dark bg-dark">
       <div className={styles.navimg}>
         <img src="/logo1.png" alt="" />
       </div>
