@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 // import Script from 'next/script'
 // import Link from 'next/link'
@@ -18,21 +19,27 @@ export default function Home() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="/1img.jpg" className="d-block w-100" alt="..." />
+              {/* <img src="/1img.jpg" className="d-block w-100" alt="..." /> */}
+              <Image src="/1img.jpg" alt="Picture of the author" width={1300}
+      height={550}/> 
               <div className="carousel-caption d-none d-md-block">
                 <h1>Series Hunter</h1>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img src="/2img.jpg" className="d-block w-100" alt="..." />
+              {/* <img src="/2img.jpg" className="d-block w-100" alt="..." /> */}
+              <Image src="/2img.jpg" alt="Picture of the author" width={1300}
+      height={550}/> 
               <div className="carousel-caption d-none d-md-block">
                 <h1>Series Hunter</h1>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img src="/3img.jpg" className="d-block w-100" alt="..." />
+              {/* <img src="/3img.jpg" className="d-block w-100" alt="..." /> */}
+              <Image src="/3img.jpg" alt="Picture of the author" width={1300}
+      height={550}/> 
               <div className="carousel-caption d-none d-md-block">
                 <h1>Series Hunter</h1>
                 <p>Some representative placeholder content for the first slide.</p>
